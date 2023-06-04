@@ -2,7 +2,7 @@ document.getElementById('button').addEventListener('click', function() {
   confetti({
     particleCount: 200,
     angle: 45,
-    spread: 300,
+    spread: 400,
     startVelocity: 45,
     decay: 0.9,
     gravity: 1,
