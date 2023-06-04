@@ -1,3 +1,4 @@
+/* INTRO, FONT & DOCUMENT-WIDE DECLARATIONS */
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cinzel+Decorative&family=Forum&family=Fugaz+One&family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Koulen&family=Monoton&display=swap');
 
 *, *::before, *::after {
@@ -34,54 +35,47 @@ h1.futuristic {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
+}
+
+#hero img {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  height: auto;
+  width: 800px;
 }
 
 #phrase {
   font-family: 'Monoton', cursive;
   font-size: 3em;
   background-color: black;
-  padding: 100px;
+  padding: 100px 20px;
   color: white;
 }
 
-nav {
-  font-family: initial;
+/* NON-FLEX NAVBAR */
+nav {font-family: initial;
   padding: initial;
-  background-color: #eee;
-}
-
-ul {
-  border: 10px inset grey;
+  background-color: #eee;}
+ul {border: 10px inset grey;
   text-shadow: 0.2em 0.2em 0.2em black;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+  overflow: hidden;}
+li {float: left;}
+li a {display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-}
+  text-decoration: none;}
+li a:hover:not(.active) {color: rgb(158, 209, 180);
+  background-color: darkgreen;}
+.active {background-color: #04AA6D;}
+/* NON-FLEX NAVBAR */
 
-li a:hover:not(.active) {
-  color: rgb(158, 209, 180);
-  background-color: darkgreen;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-
-.anim-1 {
+.rainbowCityLights {
   animation: crazy 750ms linear 0s infinite alternate forwards;
 }
 
@@ -97,8 +91,7 @@ p.decor::before {
   
 p.decor::after {
   content: " - Thank you!";
-}  
-
+}
 
 @keyframes crazy {
   0%   {
@@ -139,6 +132,12 @@ p.decor::after {
   }
 } 
 
+#button {
+  background: navy;
+  border: 2px solid rgb(1, 1, 51);
+  border-radius: 6px;
+  padding: 10px;
+}
 
 
 
