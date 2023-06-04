@@ -7,10 +7,10 @@
 
 * {
   font-size: 32px;
-  font-family: 'Geologica', sans-serif;
 }
 
 html {
+  font-family: 'Geologica', sans-serif;
   background-color: black;
   color: white;
 }
@@ -88,11 +88,11 @@ li a:hover:not(.active) {color: rgb(158, 209, 180);
 }
 
 p.decor::before {
-  content: "Read this - ";
+  content: "pseudoelement magic ";
 }
   
 p.decor::after {
-  content: " - Thank you!";
+  content: " --> Nice!";
 }
 
 @keyframes crazy {
@@ -153,6 +153,10 @@ p.decor::after {
   font-style: italic
 }
 
+.bold {
+  font-weight: 700;
+}
+
 #celebration {
   display: flex;
   flex-direction: column;
@@ -161,7 +165,38 @@ p.decor::after {
 }
 
 #page-description {
-  padding: 10px 160px;
+  padding: 10px 200px;
+  text-align: justify;
+}
+
+#product-hl {
+  display: flex;
+}
+
+#warning-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.img-container {
+  background-color: red;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.warning-sign {
+  background-color: red;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+#copyright {
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 40px;
 }
 
 
