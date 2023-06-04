@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cinzel+Decorative&family=Forum&family=Fugaz+One&family=Koulen&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cinzel+Decorative&family=Forum&family=Fugaz+One&family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Koulen&family=Monoton&display=swap');
 
 * {
   font-size: 32px;
 }
 
 body {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Geologica', sans-serif;
   padding: 0 100px 100px 100px;
 }
 
@@ -31,7 +31,9 @@ h1.futuristic {
 #phrase {
   font-family: 'Monoton', cursive;
   font-size: 3em;
-  flex: 1;
+  background-color: black;
+  padding: 100px;
+  color: white;
 }
 
 nav {
