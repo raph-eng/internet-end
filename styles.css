@@ -20,7 +20,7 @@ html {
 }
 
 h1.futuristic {
-  background: url(sq-cr.gif);
+  background: url(assets/sq-cr.gif);
   text-shadow: -0.075em 0.06em 0.025em turquoise;
   outline: 20px dotted red;
   border-radius: 10px;
