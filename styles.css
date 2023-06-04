@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cinzel+Decorative&family=Forum&family=Fugaz+One&family=Koulen&family=Monoton&display=swap');
+
+* {
+  font-size: 32px;
+}
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  padding: 0 100px 100px 100px;
+}
+
+
+h1.futuristic {
+  background-color: black;
+  outline: 20px dotted red;
+  border-radius: 10px;
+  font-family: 'Fugaz One', cursive;
+  font-size: 2em;
+  text-align: center;
+  animation: crazy-outline 1s ease-in 1s infinite reverse both;
+}
+
+#hero {
+  font-family: 'Monoton', cursive;
+}
+
+nav {
+  font-family: initial;
+  padding: initial;
+}
+
+ul {
+  border: 10px inset grey;
+  text-shadow: 0.2em 0.2em 0.2em black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+.anim-1 {
+  animation: crazy 750ms linear 0s infinite alternate forwards;
+  transition: all 250ms;
+}
+
+.anim-1:hover {
+  scale: 1.2;
+}
+
+#canvas {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes crazy {
+  0%   {
+    color: red;
+  }
+  25% {
+    color: violet;
+  }
+  50%  {
+    color: yellow;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+@keyframes crazy-outline {
+  0%   {
+    outline: 20px dotted red;
+  }
+  25% {
+    outline: 20px dotted violet;
+  }
+  50%  {
+    outline: 20px dotted yellow;
+  }
+  75% {
+    outline: 20px dotted green;
+  }
+  100% {
+    outline: 20px dotted blue;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
