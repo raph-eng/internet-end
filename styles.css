@@ -44,6 +44,7 @@ h1.futuristic {
   flex-basis: auto;
   height: auto;
   width: 800px;
+  border: 10px inset navy
 }
 
 #phrase {
@@ -58,7 +59,8 @@ h1.futuristic {
 nav {font-family: initial;
   padding: initial;
   background-color: #eee;}
-ul {border: 10px inset grey;
+ul {
+  border: 4px solid grey;
   text-shadow: 0.2em 0.2em 0.2em black;
   list-style-type: none;
   margin: 0;
@@ -139,8 +141,28 @@ p.decor::after {
   padding: 10px;
 }
 
+.typography {
+  font-family: 'Geologica', sans-serif;
+}
 
+.thin {
+  font-weight: 100;
+}
 
+.italic {
+  font-style: italic
+}
+
+#celebration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-description {
+  padding: 10px 160px;
+}
 
 
 
